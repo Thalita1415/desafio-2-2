@@ -1,0 +1,114 @@
+@import "https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap";
+
+/*<!-- This is a bad comment.  We want to revert it. -->*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    }
+
+body{
+    
+    background: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+    .links {
+        text-align: center;
+        }
+
+header div a{
+    color: white;
+    font-size: 70px;
+    line-height: 50px;
+    margin: 42%;
+    text-decoration: none;
+
+}
+
+
+ header{
+    padding: 40px;
+    background: #6A5ACD;
+}
+
+#pagina img{
+
+
+    border-radius: 90%;
+    border: 5px solid rgb(29, 190, 0);
+    margin-bottom: 60px;
+    height: 310px;
+
+}
+#pagina {
+
+    text-align: center;
+    padding: 40px;}
+   
+    #pagina h2{
+        color: black;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: bold;
+        opacity: 0.8;
+    }
+
+    #pagina h3{
+
+        color: rgb(221, 213, 248);
+    font-size: 28px;
+    line-height: 52px;
+    }
+        #pagina p{
+
+    color: #6A5ACD;
+    font-size: 25px;
+    margin: 10px;
+    padding: 7px;
+    
+   
+
+        }
+
+        #pagina li{
+            
+            font-size: 25px;
+            margin: 2px 0px 0px;
+            font-weight: 400;
+            padding-left: 10px;
+            
+        
+
+        }
+        #pagina ul{
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            padding-bottom: 30px;
+            background-color:  rgb(29, 190, 0);
+            color: white;
+            font-size: 10px;
+            border-radius: 100px;
+            padding: 25px;
+        
+        }
+        .links a {
+
+        color:rgb(113, 89, 193);
+        font-size: 20px;
+        line-height: 190px;
+        margin: 0 20px;
+        padding-bottom: 3px;
+        text-align: center;
+        text-decoration:none ;
+        border-bottom: 2px solid rgb(29, 190, 0);
+
+        }
+        .links a:hover
+        {
+
+            color:rgb(29, 190, 0);
+            Transition: color 500ms;
+        }
+    
